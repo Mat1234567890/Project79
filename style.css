@@ -1,8 +1,9 @@
 html{
-	background-image: url(https://cdn.shopify.com/s/files/1/1619/4221/products/J08299_1024x1024.jpg?v=1624081503);
-	background-repeat: no-repeat;
-}
 
+}
+body{
+	background-color:lightslategrey;
+}
 .topnav {
 	overflow: hidden;
 	background-color: #333;
@@ -22,7 +23,7 @@ html{
   }
   
   .topnav a:hover {
-	background-color: #bbb;
+	background-color: rgb(0, 0, 0);
 	color: black;
   }
 
@@ -44,7 +45,7 @@ html{
 	float: right;
 	width: 50%;
 	padding: 160px;
-	color: rgb(126, 129, 126);
+	color: rgb(0, 0, 0);
 	font-size: 25px;
 	font-family: cursive;
   }
@@ -70,7 +71,7 @@ html{
 	float: left;
 	width: 80%;
 	padding: 5px;
-	color:rgb(150, 150, 150);
+	color:rgb(0, 0, 0);
 	font-size: 25px;
 	font-family: cursive;
   }
