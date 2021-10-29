@@ -1,8 +1,9 @@
 html{
-
+color: white;
 }
 body{
 	background-image: url("Black\ Marble\ img.jpg");
+	color: white;
 }
 .topnav {
 	overflow: hidden;
@@ -40,6 +41,7 @@ body{
 	float: left;
 	width: 50%;
 	padding: 5px;
+	color: white;
   }
   .menu_div{
 	float: right;
@@ -48,12 +50,14 @@ body{
 	color: rgb(0, 0, 0);
 	font-size: 25px;
 	font-family: cursive;
+	color: white;
   }
   #menu_list{
 	background-color:#f5c71a;
 	color:black; 
 	width: 200px;
 	border: none;
+	color: white;
   }
 
   .newRow::after {
@@ -71,7 +75,7 @@ body{
 	float: left;
 	width: 80%;
 	padding: 5px;
-	color:rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
 	font-size: 25px;
 	font-family: cursive;
   }
@@ -85,6 +89,7 @@ body{
 	color:black;
 	font-size: 15px;
 	font-family: cursive;
+	color: white;
   }
 
   #add_item {
@@ -98,6 +103,7 @@ body{
     border: none;
     border-bottom: 1px solid rgb(223, 205, 205);
     outline: none;
+	color: white;
  }
 
 [placeholder]:focus::-webkit-input-placeholder {
@@ -110,4 +116,7 @@ body{
 #im1{
 	width:100px;
 	height: 80px;
+}
+#display_addedmennu{
+	color: white;
 }
